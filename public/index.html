@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyDigitalSpace</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>MyDigitalSpace</h1>
+    <nav>
+      <ul>
+        <li><a href="#accounts">Account Inventory</a></li>
+        <li><a href="#password-check">Password Health Check</a></li>
+        <li><a href="#security-tips">Security Tips</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="accounts">
+      <h2>Account Inventory</h2>
+      <p>List and manage your online accounts here (basic frontend for now).</p>
+      </section>
+
+    <section id="password-check">
+      <h2>Password Health Check</h2>
+      <label for="password-input">Enter Password:</label>
+      <input type="password" id="password-input">
+      <button id="check-strength-btn">Check Strength</button>
+      <div id="strength-result"></div>
+
+      <h3>Generate Strong Password</h3>
+      <button id="suggest-password-btn">Suggest Password</button>
+      <div id="suggestion-result"></div>
+    </section>
+
+    <section id="security-tips">
+      <h2>Security Tips</h2>
+      <ul>
+        <li>Use strong, unique passwords for each account.</li>
+        <li>Enable two-factor authentication whenever possible.</li>
+        <li>Be wary of phishing attempts.</li>
+        </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MyDigitalSpace</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
